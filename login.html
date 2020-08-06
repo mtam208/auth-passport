@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<body>
+    <h3>Login with your account</h3>
+    <form action="/login" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" autocomplete="on">
+        <button type="submit">Login</button>
+    </form>
+    <br>
+    <div>
+        <span>Or</span>
+        <button type="button">Login with Facebook</button>
+    </div>
+    <hr>
+    <p>You don't have an account? Register <a href="/register">here</a></p>
+</body>
+</html>
